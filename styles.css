@@ -1,0 +1,57 @@
+
+
+body, html {
+    background-color: #77976e;
+    height: 100%;
+    margin: 0;
+    font-family: Roboto;
+}
+
+header {
+    display: flex;
+    background-color: #77976e;
+    
+    ;
+}
+
+header h1 {
+    margin-right: auto;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    color: #f9faf8;
+    gap: 10px;
+    list-style-type: none;
+    
+}
+
+ul li {
+    justify-content: space-around;
+}
+
+.hero {
+    display: flex;
+    background-color: #f9faf8;
+    margin: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/mindaugas-norvilas-806yMxv5kx0-unsplash.jpg);
+    flex-direction: column;
+    height: 50vh;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+
+
+
+.hero__text {
+    font-size: 1.4rem;
+    text-align: center;
+    color: white;
+}
+    
