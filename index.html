@@ -6,30 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>Landing Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+      </style>
 </head>
 <body>
-    <header>
-        <h1>Botanic Scents</h1>
-        <ul>
-            <li><a href="default.asp">Home</li></a>
-            <li><a href='about.asp'>About</li></a>
-            <li><a href="contact">Contact</li></a>
-        </ul>
-
-
-
+    <header class="navbar">
+        <div class="container flex">
+            <h1 class="logo">Botanic Scents</h1>
+                <nav>
+                    <ul>
+                        <li><a href="default.asp">Home</li></a>
+                        <li><a href='about.asp'>About</li></a>
+                        <li><a href="contact">Contact</li></a>
+                    </ul>
+                </nav>
+        </div>
     </header>
-    <section>
+    <section class="hero__section">
         <div class="hero">
             <div class="hero__text">
                 <h1>This website is awesome</h1>
                 <p>This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast</p>
+                <button type="button">Sign up</button>
+            </div>
+            <div class="hero__image"><img src="images/mindaugas-norvilas-xA9C0w8ctcs-unsplash.jpg">
             </div>
         </div>
     </section>
 
-    <section>
-        <h2>Some Random Information</h2>
+    <section class="info__section">
+        <div class="info__container">
+            <h2>Some Random Information</h2>
+
+
+
+        </div>
     </section>
 
 
