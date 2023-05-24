@@ -1,7 +1,7 @@
 
 
 body, html {
-    background-color: #77976e;
+    background-color: #8F9779;
     height: 100%;
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -10,11 +10,12 @@ body, html {
 .navbar {
     height: 70px;
     padding: 0 30px;
-    background-color: #77976e;   
+    background-color: #8F9779;   
+    padding-bottom: 10px;
 }
 
-button {
-    background-color: olive;
+.herobutton {
+    background-color: #556B2F;
     border: none;
     color: white;
     padding: 6px 18px;
@@ -70,6 +71,9 @@ li {
     list-style-type: none;
 }
 
+.hero__section {
+    padding: 10px
+}
 
 .hero__text p {
     font-size: 16px;
@@ -79,12 +83,13 @@ li {
 
 .hero {
     display: flex;
-    background-color: #77966e;
+    background-color: #8F9779;
     margin: auto;
     margin: 0 auto;
     max-width: 1000px;   
     align-items: center; 
     padding-bottom: 50px;
+    flex-grow: 0;
 }
 
 a {
@@ -106,7 +111,7 @@ a {
 
 .hero img {
     max-width: 100%;
-    height: 30vh;
+    height: 20vh;
 }
 
 
@@ -115,6 +120,7 @@ a {
     border-width: 1rem;
     justify-content: center;
     gap: 40px;
+    flex-grow: 0;
     
 }
 
@@ -126,7 +132,7 @@ sub {
     max-width: 100%;
     border-radius: 1rem;
     object-fit: fill;
-    height: 25vh;
+    height: 18vh;
     vertical-align: middle;
 }
 
@@ -146,3 +152,95 @@ sub {
     justify-content: center;
     padding-bottom: 30px;
 }
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    padding-bottom: 5px;
+    background-color: whitesmoke;
+}
+
+.quote {
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quote em{
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.albert {
+    margin-left: auto;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    display: flex;
+    justify-content: end;
+    margin-top: 0;
+}
+
+.cta {
+    display: flex;
+    background-color: white;
+}
+
+.sign-up {
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: flex;
+    background-color: #556B2F;
+    flex-basis: 65%;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.cta p {
+    display: flex;
+    color: white;
+}
+
+.bold {
+    font-weight: 500;
+    margin-bottom: 0;
+
+}
+
+.smol {
+    font-size: 12px;
+    margin-top: 0;
+    font-weight: lighter;
+}
+
+.ctabutton {
+    background-color: transparent;
+    border: 2px solid white;
+    border-color: white;
+    color: white;
+    padding: 6px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+footer {
+    display: table;
+    text-align: center;
+    margin: auto;
+    color: white;
+    padding: 3px
+}
+footer p {
+    font-size: 12px;
+    padding: 10px;
